@@ -1,0 +1,9 @@
+# Data sources and rights
+
+The source for the nursing-home administrative records is the U.S. Centers for Medicare & Medicaid Services (CMS), [Provider Data Catalog: Nursing Homes](https://data.cms.gov/provider-data/topics/nursing-homes/). The core archive includes a file-level inventory at `data/cms_source_inventory.csv`. It identifies the underlying releases, the original and packaged row counts, file hashes and whether a packaged file is a source file or a filtered extract. For variable definitions, consult the [CMS nursing-home data dictionary](https://data.cms.gov/provider-data/sites/default/files/data_dictionaries/nursing_home/NH_Data_Dictionary.pdf) and the dictionary in the core archive.
+
+The 14,700-facility benchmark is a CMS-derived research dataset, not an unchanged CMS extract. Its 16 model inputs consist of five observed fields, eight indicators constructed conditional on the benchmark labels, and three missingness indicators. The separate temporal evaluation uses observed predictors and subsequent recorded penalties; it is not facility-disjoint from benchmark development. Neither the archived scores nor the constructed indicators are official CMS risk designations.
+
+The source files identify facilities, including CMS provider identifiers; some source tables contain facility addresses and telephone numbers. If you reuse CMS source material, consult the terms for the particular dataset and attribute CMS. Project-specific derived data and model outputs should be attributed separately to the study. The archives preserve historical source snapshots and some local filesystem paths.
+
+No open-source license has been designated for the authors’ original code. This notice does not grant a new license for the code, derived data, or model outputs, and does not change the terms applicable to CMS or other third-party material. A citation identifies the work; it does not substitute for a reuse license.

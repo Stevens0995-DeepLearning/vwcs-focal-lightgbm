@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+type: software
+message: "If you use these materials, cite the archived version used in your analysis."
+title: "VWCS-Focal-LightGBM: reproducibility materials"
+version: "1.0.0"
+authors:
+  - family-names: "Li"
+    given-names: "Hua"
+  - family-names: "Xu"
+    given-names: "Jian"
+abstract: "Archived predictions, metric replay and a separate shared-noise analysis for a CMS-derived benchmark of severe regulatory penalties in long-term care facilities."
+keywords:
+  - "cost-sensitive learning"
+  - "focal loss"
+  - "long-term care"
+  - "reproducibility"
