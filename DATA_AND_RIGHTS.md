@@ -6,4 +6,4 @@ The 14,700-facility benchmark is a CMS-derived research dataset, not an unchange
 
 The source files identify facilities, including CMS provider identifiers; some source tables contain facility addresses and telephone numbers. If you reuse CMS source material, consult the terms for the particular dataset and attribute CMS. Project-specific derived data and model outputs should be attributed separately to the study. The archives preserve historical source snapshots and some local filesystem paths.
 
-No open-source license has been designated for the authors’ original code. This notice does not grant a new license for the code, derived data, or model outputs, and does not change the terms applicable to CMS or other third-party material. A citation identifies the work; it does not substitute for a reuse license.
+The authors’ original code is licensed under the MIT License; see the LICENSE file in the repository root. This license applies to the authors’ code and does not alter the terms governing CMS source data or other third-party materials. The benchmark data and archived model outputs are described separately above.
